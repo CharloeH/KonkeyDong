@@ -100,7 +100,7 @@ namespace DonkeyKong
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            Console.WriteLine(".");
+            //Console.WriteLine(".");
             player.move();
             player.jump();
 
@@ -109,7 +109,7 @@ namespace DonkeyKong
         private void Window_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
 
-            MessageBox.Show(e.GetPosition(canvas).ToString());
+           MessageBox.Show(e.GetPosition(canvas).ToString());
         }
     }
 }
